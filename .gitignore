@@ -9,10 +9,9 @@ __pycache__/
 *.faiss
 *.pkl
 
-# Dataset (Do not upload 1200 raw images to Git)
-dataset/
+# Ignore all files inside dataset except .gitkeep
 dataset/*
-archive/
+!dataset/.gitkeep
 
 # OS and VS Code caches
 .vscode/
