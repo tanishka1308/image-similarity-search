@@ -1,0 +1,19 @@
+# Virtual environment
+venv/
+env/
+__pycache__/
+*.pyc
+
+# Heavy model weights and indexes (GitHub limits files over 100MB)
+*.pth
+*.faiss
+*.pkl
+
+# Dataset (Do not upload 1200 raw images to Git)
+dataset/
+dataset/*
+archive/
+
+# OS and VS Code caches
+.vscode/
+.DS_Store
